@@ -46,3 +46,9 @@ After changing dependencies, run `uv lock` to refresh `uv.lock`.
 ## Architecture and verification
 
 [Architecture](docs/architecture.md) · [MIT licence](LICENSE). Unit tests and CI are reproducible with the commands above. Live API/model quality requires separate evaluation.
+
+## Preview
+
+![Application preview](docs/demo.png)
+
+Actual application rendered with illustrative sample data. The dictionary definition is an offline fixture; the invoice uses a fictional customer.
