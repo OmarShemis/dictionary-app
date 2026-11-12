@@ -1,5 +1,7 @@
 # My Dictionary
 
+[![Tests](https://github.com/OmarShemis/dictionary-app/actions/workflows/tests.yml/badge.svg)](https://github.com/OmarShemis/dictionary-app/actions/workflows/tests.yml)
+
 A small English dictionary desktop app built with Python and PySide6.
 Definitions and examples come from https://dictionaryapi.dev/ and require an internet connection.
 Search with the button or Enter. Lookups run in the background so the window stays responsive.
@@ -40,3 +42,7 @@ uv run python -m unittest discover -s tests -v
 
 Project dependencies are declared in `pyproject.toml`; `requirements.txt` installs that project.
 After changing dependencies, run `uv lock` to refresh `uv.lock`.
+
+## Architecture and verification
+
+[Architecture](docs/architecture.md) · [MIT licence](LICENSE). Unit tests and CI are reproducible with the commands above. Live API/model quality requires separate evaluation.
